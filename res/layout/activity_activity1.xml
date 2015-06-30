@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:pj="http://schemas.android.com/apk/res/com.animation2_23rd"
+	xmlns:bm="com.animation2_23rd"
+    tools:context=".Activity1" >
+    
+    <TextView 
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
+        />
+
+    <in.WsCubeTech.controls.Carousel
+        android:id="@+id/carousel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tv1"
+        android:animationDuration="200"
+        android:background="@android:color/background_dark"
+        pj:Items="@array/entries"
+        pj:Names="@array/names"
+        pj:SelectedItem="0"
+        pj:UseReflection="true" />
+
+</RelativeLayout>

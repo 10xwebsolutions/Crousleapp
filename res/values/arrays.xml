@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<array name="entries">
+		<item>@drawable/blic</item>		
+		<item>@drawable/facebook</item> 		
+		<item>@drawable/gallery</item>		
+		<item>@drawable/gmail</item>
+		<item>@drawable/ebuddy</item>		
+		 						
+	</array>	
+	<array name="names">
+	    <item>Blic</item>
+	    <item>Facebook</item>
+	    <item>Gallery</item>
+	    <item>Gmail</item>
+	     <item>Ebuddy</item>
+	    
+	</array>
+</resources>
